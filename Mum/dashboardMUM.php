@@ -32,7 +32,7 @@ if (strlen($_SESSION['detsuid']==0)) {
 	<?php include_once('../includes/header.php');?>
 	<?php include_once('../includes/sidebar2.php');?>
 		
-	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="#">
@@ -43,9 +43,19 @@ if (strlen($_SESSION['detsuid']==0)) {
 		</div><!--/.row-->
 		
 		<div class="row">
-			<div class="col-lg-12">
-				<h1 class="page-header">Dashboard</h1>
-			</div>
+			<div class="panel panel-default">
+					<div class="panel-heading"><marquee>Welcome To Mother's Dashboard</marquee></div>
+
+					<div class="panel-body">
+						<h4>Here are a list of the tasks you can perform</h4>
+						<ul>
+							<li>Book an appointment stating the nature of the desired appointment whether consulation or others</li>
+							<li>View the different booked appointments <i>By typing your Unique assigned number</i></li>
+							<li>View Doctor's scheduled visits</li>
+							<li>Book bed space</li>
+						</ul>
+					</div>
+	    </div>
 		</div><!--/.row-->
 		
 		

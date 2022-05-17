@@ -43,10 +43,29 @@ if (strlen($_SESSION['detsuid']==0)) {
 		</div><!--/.row-->
 		
 		<div class="row">
-			<div class="col-lg-12">
-				<h1 class="page-header">Dashboard</h1>
-			</div>
+			<div class="panel panel-default">
+					<div class="panel-heading"><marquee>Welcome To Doctor's Dashboard</marquee></div>
+
+					<div class="panel-body">
+						<h4>Here are a list of the tasks you can perform</h4>
+						<ul>
+							<li>Register New patients and Give the Mother's unique Id</li>
+							<li> View and analysis reports <ol>
+								<li>View all registered patients in the system</li>
+								<li>View Booked appointments and the nature of the appointment</li>
+								<li>View booked beds by patients</li>
+							</ol></li>
+							<li>Assign patients Visiting schedules normal at most 4 with a spacing of  months interval</li>
+							<li>View assigned schedules</li>
+							<li>View delivery dates</li>
+							<li>Update personal profile</li>
+							<li>Change password for personal account</li>
+
+						</ul>
+					</div>
+	    </div>
 		</div><!--/.row-->
+		
 		
 		
 		

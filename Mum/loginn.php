@@ -61,8 +61,7 @@ if(isset($_POST['login']))
 								</select>
 							</div> -->
 							<div class="checkbox">
-								<button type="submit" value="login" name="login" class="btn btn-primary">login</button><span style="padding-left:250px">
-								<a href="register.php" class="btn btn-primary">Register</a></span>
+								<button type="submit" value="login" name="login" class="btn btn-primary">login</button>
 							</div>
 							</fieldset>
 					</form>

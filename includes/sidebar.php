@@ -28,7 +28,7 @@ $name=$row['FullName'];
         
         <ul class="nav menu">
             <li class="active"><a href="dashboard.php"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
-            <li class=""><a href="registerMUM.php">&nbsp;</em> Register mum</a></li>
+            <li class=""><a href="registerMUM.php"><em class="fa fa-file-o"></em>&nbsp;</em> Register mum</a></li>
             
            
             <li class="parent "><a data-toggle="collapse" href="#sub-item-1">
@@ -48,9 +48,9 @@ $name=$row['FullName'];
 
             </li>
             
-           <li class=""><a href="assignscheduleVISIT.php">&nbsp;</em> Assign Schedule Visits</a></li>
-            <li class=""><a href="viewscheduleVISIT.php">&nbsp;</em> View Schedule Visits</a></li>
-           <li class=""><a href="#">&nbsp;</em> Delivery dates</a></li>
+           <li class=""><a href="assignscheduleVISIT.php"><em class="fa fa-pencil"></em>&nbsp;</em> Assign Schedules</a></li>
+            <li class=""><a href="viewscheduleVISIT.php"><em class="fa fa-clone"></em>&nbsp;</em> View Schedules</a></li>
+           <li class=""><a href="#"><em class="fa fa-calendar"></em>&nbsp;</em> Delivery dates</a></li>
  
 
 
